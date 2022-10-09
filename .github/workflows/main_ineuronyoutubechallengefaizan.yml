@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'iNeuronYoutubeChallengeFaizan'
+          app-name: 'tubescrap'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E0B9501664543A285C7D43178274485 }}
