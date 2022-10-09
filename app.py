@@ -12,7 +12,6 @@ app.secret_key = "faiz"
 
 @app.route("/home")
 def home():
-
     return render_template("index.html", GitHubLink=Constants.GitHubLink)
 
 
